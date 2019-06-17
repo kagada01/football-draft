@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position: MyString
+  tds: 1
+  rush_yds: 1
+  rec: 1
+  carries: 1
+  pass_yds: 1
+  int: 1
+  fumbles: 1
+
+two:
+  position: MyString
+  tds: 1
+  rush_yds: 1
+  rec: 1
+  carries: 1
+  pass_yds: 1
+  int: 1
+  fumbles: 1

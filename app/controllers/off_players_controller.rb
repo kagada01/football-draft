@@ -1,0 +1,2 @@
+class OffPlayersController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class DefPlayersController < ApplicationController
+end
