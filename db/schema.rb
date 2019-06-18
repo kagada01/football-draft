@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_17_212116) do
+ActiveRecord::Schema.define(version: 2019_06_18_033640) do
 
   create_table "def_players", force: :cascade do |t|
     t.string "position"
@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2019_06_17_212116) do
     t.integer "fumble_recs"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "team_id"
+    t.integer "my_team_id"
   end
 
   create_table "league_users", force: :cascade do |t|
@@ -55,7 +55,7 @@ ActiveRecord::Schema.define(version: 2019_06_17_212116) do
     t.integer "fumbles"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "team_id"
+    t.integer "my_team_id"
   end
 
   create_table "players", force: :cascade do |t|
